@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+<!-- </head> -->
+
+<body>
+    <main class="flex-container">
+        <article class="card">
+            <div class="card-body">
+                <h2>Notebook ASUS "Zephyrus G14"</h2>
+                <div class="card-img-top"></div>
+                <input type="text" name="cantidad" id="cantidad-1" placeholder="Ingrese Cantidad">
+                <input type="text" name="color" id="color-1" placeholder="Ingrese Color">
+                <p >Precio: $<span id="spanPrecio"></span></p>
+                <button id="btnTotal">Calcular total</button>
+            </div>
+        </article>
+
+        <article class="card-2">
+            <div>
+                <p >Cantidad Total: <span  id="spanCantidadTotal" class="text-style">0</span></p>
+                <p>Color: <span class="circle"></span></p>
+                <p>Precio Total:  <span class="text-style">$</span><span id="spanPrecioTotal" class="text-style">0</span></p>
+
+            </div>
+        </article>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
